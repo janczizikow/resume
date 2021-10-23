@@ -290,3 +290,6 @@ TSWLatexianTemp*
 
 # pdf output
 *.pdf
+
+# MacOS files
+.DS_Store
