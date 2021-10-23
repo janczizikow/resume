@@ -1,0 +1,89 @@
+\documentclass{resume}
+\usepackage[hidelinks]{hyperref}
+\usepackage{lipsum}
+
+\name{Jan Czizikow}
+\contact{\href{tel:+48-792-039-924}{+48-792-039-924}}
+\contact{\href{mailto:jan.czizikow@gmail.com}{jan.czizikow@gmail.com}}
+\contact{\href{https://www.janczizikow.com/}{www.janczizikow.com}}
+\contact{\href{https://github.com/janczizikow}{github.com/janczizikow}}
+\contact{\href{https://linkedin.com/in/janczizikow}{linkedin.com/in/janczizikow}}
+
+\begin{document}
+\makeheader
+
+\begin{ResumeSection}{profile}
+    \begin{ResumeSubsection}{org=}
+        \par{Versatile Frontend Developer passionate about developing friendly and helpful user interfaces / applications. Specializes in React, React Native, and TypeScript.}
+    \end{ResumeSubsection}
+\end{ResumeSection}
+
+\begin{ResumeSection}{personal details}
+    \newcommand{\skill}[2]{\textbf{#1} - #2}
+    \begin{ResumeSubsection}{org=}
+        \begin{itemize}
+            \item \skill{Date of Birth}{12 June 1992}
+            \item \skill{Nationality}{Polish}
+        \end{itemize}
+    \end{ResumeSubsection}
+\end{ResumeSection}
+
+\begin{ResumeSection}{skills}
+    \newcommand{\skill}[2]{\textbf{#1} - #2}
+    \begin{ResumeSubsection}{org=}
+        \begin{itemize}
+            \item \skill{Web Application Development}{Node.js, Ruby, Ruby on Rails}
+            \item \skill{Web Client Development}{JavaScript, TypeScript, React, Redux, HTML, CSS / Sass}
+            \item \skill{Other}{SQL, Git, Webpack}
+        \end{itemize}
+    \end{ResumeSubsection}
+\end{ResumeSection}
+
+\begin{ResumeSection}{experience}
+    \begin{ResumeSubsection}{org={HeyJobs GmbH},location={Berlin, Germany},position={Senior Frontend Developer},duration={2020.12 - present}}
+        \begin{itemize}
+            \item Developing and maintaining a web application (React, Redux, Flow)
+            \item Migrated from legacy authentication system to AWS cognito
+            \item Managing and mentoring junior colleagues in the team
+        \end{itemize}
+    \end{ResumeSubsection}
+
+    \begin{ResumeSubsection}{org={HiDoc Technologies GmbH},location={Berlin, Germany},position={Frontend Developer},duration={2018.10 - 2020.10}}
+        \begin{itemize}
+            \item Developing new UI functionality for a web dashboard using React, Redux and Typescript
+            \item Developing new features for Cara Care React Native app
+            \item Translating wireframes and mockups into responsive, interactive features
+        \end{itemize}
+    \end{ResumeSubsection}
+
+    \begin{ResumeSubsection}{org={Motion Global},location={Shanghai, China},position={UX Project Manager},duration={2017.02 - 2018.07}}
+        \begin{itemize}
+            \item Identified business needs and gathered requirements from business users
+            \item Assisted in the product design of e-commerce platforms: usability and conversion optimization
+        \end{itemize}
+    \end{ResumeSubsection}
+\end{ResumeSection}
+
+\begin{ResumeSection}{education}
+    \begin{ResumeSubsection}{org={Le Wagon},location={Berlin, Germany},position={FullStack Web Development Coding Bootcamp},duration={2018 - 2018}}
+        \begin{itemize}
+            \item 9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES2015, SQL, git, GitHub, Heroku and Ruby on Rails.
+        \end{itemize}
+    \end{ResumeSubsection}
+
+    \begin{ResumeSubsection}{org={Donghua University},location={Shanghai, China},position={Bachelor of Business Administration},duration={2014 - 2018}}
+        \begin{itemize}
+            \item GPA 3.29/ 4.0
+            \item English-taught Business degree with Chinese courses
+        \end{itemize}
+    \end{ResumeSubsection}
+
+    \begin{ResumeSubsection}{org={Beijing Language and Culture University},location={Beijing, China},position={Chinese Language Studies},duration={2012 - 2014}}
+        \begin{itemize}
+            \item Mastered 2,500 commonly used words and related grammar patterns
+            \item Passed HSK5 with a total score of 235/300 - 06.2014
+        \end{itemize}
+    \end{ResumeSubsection}
+\end{ResumeSection}
+
+\end{document}
