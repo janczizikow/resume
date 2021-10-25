@@ -10,6 +10,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Spellcheck
         run: |
+          sudo apt-get update
+          sudo apt-get install aspell aspell-en
           bash scripts/spellcheck.sh list
       - name: compile LaTeX document
         uses: xu-cheng/latex-action@v2
