@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eo pipefail
+
 # Checks resume LaTeX file for spelling mistakes.
 
 aspell --version
