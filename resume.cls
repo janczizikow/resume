@@ -2,7 +2,8 @@
 \ProvidesClass{resume}[2014/08/16 Resume class]
 
 \LoadClass[12pt,a4paper]{article}
-\usepackage{times}
+\usepackage[default]{sourcesanspro}
+\usepackage[T1]{fontenc}
 \usepackage{enumitem}
 \usepackage[top=0.63cm,bottom=0.63cm,right=1.1cm,left=1.1cm]{geometry}
 
