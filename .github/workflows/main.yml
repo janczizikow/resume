@@ -7,19 +7,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
       - name: Spellcheck
         run: |
           sudo apt-get update
           sudo apt-get install aspell aspell-en
           bash scripts/spellcheck.sh list
       - name: compile LaTeX document
-        uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/latex-action@v4
         with:
           root_file: |
             resume.tex
       - name:
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v7
         with:
           name: resume.pdf
           path: resume.pdf
